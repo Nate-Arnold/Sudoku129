@@ -1,0 +1,8 @@
+﻿<Application x:Class="Sudoku129.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Sudoku129" xmlns:src="clr-namespace:Sudoku129.Models">
+    <Application.Resources>
+        <src:BrushConverter x:Key="BrushConverter"/>
+    </Application.Resources>
+</Application>

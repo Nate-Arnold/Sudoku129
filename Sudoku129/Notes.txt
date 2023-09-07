@@ -1,0 +1,53 @@
+﻿
+
+UI:
+
+		Limit Description length
+		Description Box that actually displays the full description properly
+
+		Move Sudoku Grid to left size of screen, and all other content to right side of screen
+
+		Color selector box
+			Change background color of selected cell(s)
+
+		Pencil mark box?
+			Change user input to pencil mark digits
+
+
+To Implement:
+
+		Timer
+	
+		Final Check Puzzle Validation
+			Could be used later for Author defined solution (In the case puzzle's solution is dictated by custom rules i.e Chess Sudoku Variants) 
+
+		Dynamic Puzzle Validation
+		Make cell text red if it clashes with another cell (i.e two of the same digit in the same row/column/box)
+
+		Cell background coloring
+
+		Pencil Marking
+			Center of box version, Placed with ctrl + number_key_press
+			Corner of box version, Placed with shift + number_key_press
+			All pencil marking removed if digit is actually placed
+
+
+		Selecting, and thus affecting, multiple cells at once
+
+		Searchlist Filtering
+
+
+Extra:
+
+		Update cells on key press
+			Remove textbox cursor
+			Backspace removes digit
+
+		Allow user to use arrow keys to navigate the Sudoku Grid
+
+		Undo cell changes with ctrl + z
+
+
+Bug Fixing:
+		
+		If no puzzle is selected, do not allow user to click Solve Selected Puzzle" button
